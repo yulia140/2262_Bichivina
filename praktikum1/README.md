@@ -1,16 +1,16 @@
-*** Задача 1
+*** Г‡Г Г¤Г Г·Г  1
 ```
 name1 = input()
 name2 = input()
 print(name1, "and", name2, "was here")
 ```
-*** Задача 2
+*** Г‡Г Г¤Г Г·Г  2
 ```
 a = input().split()
 b = input().split()
 print(a[0], b[0], a[1], b[1], a[2], sep=',')
 ```
-*** Задача 3
+*** Г‡Г Г¤Г Г·Г  3
 ```
 a, b = input().split()
 c, d = input().split()
@@ -18,7 +18,7 @@ e, f = input().split()
 print(len(a) * int(b) + len(c) * int(d) + len(e) * int(f))
 ```
 
-*** Задача 4
+*** Г‡Г Г¤Г Г·Г  4
 ```
 s = input()
 print('*' * (len(s) + 4))
@@ -26,7 +26,7 @@ print('* ' + s + ' *')
 print('*' * (len(s) + 4))
 ```
 
-*** Задача 5
+*** Г‡Г Г¤Г Г·Г  5
 ```
 h1, m1, s1 = map(int, input().split())
 h2, m2, s2 = map(int, input().split())
@@ -35,16 +35,16 @@ finish = h2 * 3600 + m2 * 60 + s2
 print(finish - start)
 ```
 
-*** Задача 6
+*** Г‡Г Г¤Г Г·Г  6
 ```
 n = int(input())
 if n == 1:
-    print("pusk)
+    print("pusk")
 else:
     print(n - 1)
 ```
 
-*** Задача 7
+*** Г‡Г Г¤Г Г·Г  7
 ```
 a, b, c = map(int, input().split())
 if a == 3 and b == 3 and c == 3:
@@ -53,7 +53,7 @@ else:
     print(a + b + c)
 ```
 
-*** Задача 8
+*** Г‡Г Г¤Г Г·Г  8
 ```
 a, b, c = input().split()
 if len(a) > len(b) and len(a) > len(c):
@@ -64,7 +64,7 @@ else:
     print(c)
 ```
 
-*** Задача 9
+*** Г‡Г Г¤Г Г·Г  9
 ```
 a, b = map(int, input().split())
 if a < b:
@@ -75,7 +75,7 @@ else:
     print("=")
 ```
 
-*** Задача 10
+*** Г‡Г Г¤Г Г·Г  10
 ```
 a, b, c = map(int, input().split())
 if a > b:
@@ -87,7 +87,7 @@ elif c > b:
 else:
     print(0)
 ```
-*** Задача 11
+*** Г‡Г Г¤Г Г·Г  11
 ```
 x = int(input())
 while x != 1:
@@ -98,7 +98,7 @@ while x != 1:
         x = 3 * x + 1
 print(1)
 ```
-*** Задача 12
+*** Г‡Г Г¤Г Г·Г  12
 ```
 n = int(input())
 p = 1
@@ -107,7 +107,7 @@ while p * 2 <= n:
 print(p)
 ```
 
-*** Задача 13
+*** Г‡Г Г¤Г Г·Г  13
 ```
 count = 0
 name = input()
@@ -117,7 +117,7 @@ while name != "Petr":
 print(count + 1)
 ```
 
-*** Задача 14
+*** Г‡Г Г¤Г Г·Г  14
 ```
 n, a = map(int, input().split())
 count = 0
@@ -128,7 +128,7 @@ while count < n:
     a += 1
 ```
 
-*** Задача 15
+*** Г‡Г Г¤Г Г·Г  15
 ```
 a, b = map(int, input().split())
 while b != 0:
