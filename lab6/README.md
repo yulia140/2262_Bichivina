@@ -13,6 +13,7 @@ int main() {
    return 0;
 }
 ```
+
 *Проверьте четыре способа объявления* **Pi**.
 * ```const auto Pi = acos(0) * 2;```
 * ```constexpr auto Pi = std::acos(0) * 2;```
