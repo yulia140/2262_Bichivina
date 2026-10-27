@@ -1,4 +1,4 @@
-***Задание 1. Первый класс
+***Г‡Г Г¤Г Г­ГЁГҐ 1. ГЏГҐГ°ГўГ»Г© ГЄГ«Г Г±Г±
 ```
 import math
 n = int(input())
@@ -6,21 +6,21 @@ k = math.ceil(n / 25)
 min_students = n // k
 print(k, min_students)
 ```
-***Задание 2. Двоичная запись
+***Г‡Г Г¤Г Г­ГЁГҐ 2. Г„ГўГ®ГЁГ·Г­Г Гї Г§Г ГЇГЁГ±Гј
 
 ```
-for _ in range(int(input())):
+for t in range(int(input())):
     n = int(input())
     p, q = map(int, input().split())
     ans = "0."
-    for _ in range(n):
+    for i in range(n):
         p *= 2
         ans += '1' if p >= q else '0'
         if p >= q: p -= q
     print(ans)
 ```
 
-***Задание 3. Сравнение
+***Г‡Г Г¤Г Г­ГЁГҐ 3. Г‘Г°Г ГўГ­ГҐГ­ГЁГҐ
 
 ```
 from fractions import Fraction
@@ -30,7 +30,7 @@ t = int(data[0])
 idx = 1
 res = []
 
-for _ in range(t):
+for i in range(t):
     p1, q1, p2, q2, p3, q3, p4, q4 = map(int, data[idx:idx+8])
     idx += 8
     
@@ -41,7 +41,7 @@ for _ in range(t):
 
 print(' '.join(res))
 ```
-***Задание 4. Универсальный префиксный код.
+***Г‡Г Г¤Г Г­ГЁГҐ 4. Г“Г­ГЁГўГҐГ°Г±Г Г«ГјГ­Г»Г© ГЇГ°ГҐГґГЁГЄГ±Г­Г»Г© ГЄГ®Г¤.
 
 ```
 n = int(input())
@@ -55,7 +55,7 @@ for x in nums:
 
 print(''.join(ans))
 ```
-***Задание 5.Декодирование универсального префиксного кода
+***Г‡Г Г¤Г Г­ГЁГҐ 5.Г„ГҐГЄГ®Г¤ГЁГ°Г®ГўГ Г­ГЁГҐ ГіГ­ГЁГўГҐГ°Г±Г Г«ГјГ­Г®ГЈГ® ГЇГ°ГҐГґГЁГЄГ±Г­Г®ГЈГ® ГЄГ®Г¤Г 
 
 ```
 s = input().strip()
